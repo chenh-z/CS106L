@@ -28,3 +28,13 @@ Review: Initialize lists
 Deep Copy: an object that is a complete, independent copy of the original
 
 ## Default and Delete
+
+```cpp
+PasswordManager() = default;
+PasswordManager (const PasswordManager& pm) = default;
+PasswordManager (const PasswordManager& rhs) = delete;
+PasswordManager& operator = (const PasswordManager& rhs) = delete;
+
+```
+
+## Move and move assignment
