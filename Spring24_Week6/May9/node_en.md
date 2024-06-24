@@ -38,3 +38,5 @@ PasswordManager& operator = (const PasswordManager& rhs) = delete;
 ```
 
 ## Move and move assignment
+
+
